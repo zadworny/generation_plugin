@@ -1,0 +1,1572 @@
+/* reset */
+
+@import 'reset.css';
+
+
+/* layout */
+
+.Generation_plug {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 12px;
+  color: #688598;
+}
+.Generation_plug a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.Generation_plug a:hover {
+  text-decoration: underline
+}
+.Generation_plug p {
+  line-height: 17px
+}
+.Generation_plug h1 {
+  font-size: 40px!important;
+  font-weight: normal;
+  color: #fff;
+  line-height:100%;
+}
+.Generation_plug h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  line-height: 100%;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+.Generation_plug h2 strong,
+.Generation_plug h2 strong span {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+}
+.Generation_plug h2 span {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+}
+.Generation_plug .GP_fs12 {
+  font-size: 12px!important;
+  text-align: center;
+  margin:0;
+}
+.Generation_plug .GP_icon.GP_padlock {
+  height: 23px!important;
+  min-height: 23px!important;
+  text-shadow: none!important;
+}
+
+
+/* box */
+
+.Generation_plug .GP_box {
+  margin: 0 auto;
+  padding: 0;
+  width: 525px;
+  border-radius: 7px!important;
+  position: relative;
+}
+.Generation_plug .GP_box .GP_content {
+  padding: 30px 20px 20px 20px;
+  border: 4px solid #252525!important;
+  border-radius: 7px!important;
+}
+.Generation_plug .GP_box .GP_linkv,
+.Generation_plug .GP_box .GP_linkv a,
+.Generation_plug .GP_box .GP_linkv li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none!important;
+}
+.Generation_plug .GP_box .GP_linkv img {
+  margin: 0 0 0 68px;
+  padding: 0;
+  background: transparent;
+}
+.Generation_plug .GP_box .GP_linkv input {
+  position: absolute;
+  margin: 0 0 0 220px;
+  padding: 0;
+}
+.Generation_plug .GP_box li {
+  line-height:120%;
+  list-style-type: none!important;
+}
+.Generation_plug .GP_box p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.Generation_plug .GP_box .GP_bar-2 {
+  margin: 15px auto
+}
+.Generation_plug .GP_box h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  line-height:120%;
+  margin: 0 0 24px 0;
+  padding: 0;
+  clear: none;
+  border: 0!important;
+  vertical-align: center!important;
+}
+.Generation_plug .GP_box .GP_list {
+  margin-left: 7px
+}
+.Generation_plug .GP_box .GP_close.GP_right-top {
+  right: -12px!important
+}
+.Generation_plug .GP_box .GP_close.GP_left-top {
+  left: -12px!important
+}
+.Generation_plug .GP_box.GP_info .GP_block-info {
+  background: url("http://generationplugin.com/online/images/boxes/icon-info.png") no-repeat;
+  height: 141px;
+  padding-left: 176px;
+}
+.Generation_plug .GP_box.GP_info .GP_block-info h1 {
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+.Generation_plug .GP_box.GP_info .GP_block-info p {
+  color: #fff
+}
+.Generation_plug .GP_box.GP_info .GP_two-buttons {
+  width: 460px;
+  margin: 25px auto 0 auto;
+  overflow: hidden;
+  padding: 10px 10px;
+  margin: 15px auto -10px auto;
+}
+.Generation_plug .GP_box.GP_info .GP_two-buttons li {
+  float: left;
+  list-style-type: none!important;
+}
+.Generation_plug .GP_box.GP_info .GP_two-buttons li.GP_f-right .GP_button {
+  box-shadow: none!important
+}
+.Generation_plug .GP_box.GP_fixed {
+  position: fixed;
+  height: auto;
+  width: 340px;
+  z-index: 10;
+}
+.Generation_plug .GP_box.GP_fixed.GP_top {
+  top: -10px
+}
+.Generation_plug .GP_box.GP_fixed.GP_bottom {
+  bottom: 0px
+}
+.Generation_plug .GP_box.GP_fixed.GP_right {
+  right: -10px
+}
+.Generation_plug .GP_box.GP_fixed.GP_left-top {
+  top: -10px;
+  left: -10px;
+}
+.Generation_plug .GP_box.GP_fixed.GP_left-bottom {
+  bottom: -10px;
+  left: -10px;
+}
+.Generation_plug .GP_box.GP_fixed.GP_right-bottom {
+  bottom: -10px;
+  right: -10px;
+}
+.Generation_plug .GP_box.GP_fixed.GP_right-top {
+  top: -10px;
+  right: -10px;
+}
+.Generation_plug .GP_box.GP_fixed .GP_content {
+  padding: 20px 20px;
+  height: auto;
+  min-height: 150px;
+  border: 4px solid #252525;
+  border-radius: 7px!important;
+}
+.Generation_plug .GP_box.GP_middle {
+  height: auto;
+  width: 340px;
+}
+.Generation_plug .GP_box.GP_middle .GP_content {
+  padding: 28px 20px 18px 20px;
+  height: auto;
+  min-height: 150px;
+  border: 4px solid #252525;
+  border-radius: 7px!important;
+}
+.Generation_plug .GP_box.GP_middle p {
+  margin: 20px 0
+}
+.Generation_plug .GP_box.GP_width530 {
+  width: 510px
+}
+.Generation_plug .GP_box.GP_width530 .GP_col-left {
+  width: 247px!important
+}
+.Generation_plug .GP_box.GP_width530 .GP_col-left img {
+  width: 170px;
+  height: 170px;
+  min-width: 170px;
+  min-height: 170px;
+  max-width: 170px;
+  max-height: 170px;
+}
+.Generation_plug .GP_box.GP_width715 {
+  width: 715px
+}
+.Generation_plug .GP_box.GP_width700 {
+  width: 585px;
+}
+.Generation_plug .GP_box.GP_width650 {
+  width: 650px
+}
+.Generation_plug .GP_box.GP_width680 {
+  width: 680px
+}
+.Generation_plug .GP_box.GP_width680 .GP_col-left {
+  width: 390px!important
+}
+.Generation_plug .GP_box.GP_width903 {
+  width: 903px
+}
+.Generation_plug .GP_box.GP_width973 {
+  width: 973px
+}
+.Generation_plug .GP_box.GP_width973 .GP_col-left {
+  width: 690px!important
+}
+.Generation_plug .GP_box.GP_width821 {
+  width: 821px
+}
+.Generation_plug .GP_box.GP_width821 .GP_col-left {
+  width: 530px!important
+}
+.Generation_plug .GP_box .GP_form-login-inline {
+  margin-top: 25px;
+  margin-left: 8px;
+}
+.Generation_plug .GP_box .GP_video {
+  margin-left: 10px
+}
+.Generation_plug .GP_box .GP_video640 {
+  width: 640px;
+  margin: 0 auto!important;
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left {
+  width: 621px;
+  float: left;
+  display: inline-block;
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left .GP_bar-4,
+.Generation_plug .GP_box .GP_two-columns .GP_col-left .GP_bar-5 {
+  float: right;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left .GP_bar-6 {
+  float: right;
+  display: inline;
+  margin-top: 40px;
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left .GP_list {
+  width: 346px
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left img.GP_f-left {
+  margin-top: 18px;
+  margin-left: 7px;
+  width: 200px;
+  height: 220px;
+  min-width: 200px;
+  min-height: 220px;
+  max-width: 100px;
+  max-height: 220px;
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left img.GP_margin-top {
+  margin-top: -20px
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-left .GP_margin-left {
+  margin-left: 235px
+}
+.Generation_plug .GP_box .GP_two-columns .GP_col-right {
+  width: 214px!important;
+  float: right!important;
+  display: inline!important;
+  margin:0!important;
+  padding:0!important;
+}
+
+
+/* slidebox */
+
+.Generation_plug .GP_box.GP_slide_box {
+  z-index: 19970!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto {
+  width: auto;
+  height: auto;
+  border-radius: 0!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto .GP_content {
+  padding: 0!important;
+  border-radius: 0!important;
+  border-left: 0!important;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 5px solid #252525;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto .GP_container {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  padding: 30px 20px 20px 20px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_customw .GP_container {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width855 .GP_container {
+  width: 855px
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width930 .GP_container {
+  width: 935px
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width930 .GP_col-left {
+  width: 690px!important
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width785 .GP_container {
+  width: 775px
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width785 .GP_col-left {
+  width: 530px!important
+}
+.Generation_plug .GP_box.GP_slide_box.GP_auto.GP_width665 .GP_container {
+  width: 665px!important
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed {
+  margin: 0!important;
+  padding: 0!important;
+  width: 100%!important; /*748px*/
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_bottom .GP_content {
+  border-bottom: 0;
+  border-top: 5px solid #252525;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_bottom .GP_your-free-book {
+  margin-top: -76px;
+  margin-bottom: auto;
+  border: 5px solid #252525;
+  border-bottom: 0;
+  -webkit-border-top-left-radius: 9px;
+  -webkit-border-top-right-radius: 9px;
+  -moz-border-radius-topleft: 9px;
+  -moz-border-radius-topright: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 31px;
+  min-height: 31px;
+  max-height: 31px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_top .GP_your-free-book {
+  margin-bottom: 1px;
+  margin-top: auto;
+  border: 5px solid #252525;
+  border-top: 0;
+  -webkit-border-bottom-left-radius: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  -moz-border-radius-bottomleft: 9px;
+  -moz-border-radius-bottomright: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  height: 31px;
+  min-height: 31px;
+  max-height: 31px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_top .GP_your-free-book.GP_image {
+  margin-bottom: -4px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_bottom .GP_your-free-book span {
+  background: url("http://generationplugin.com/online/images/boxes/icon-slider-2.png") no-repeat 0 50%;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical .GP_container {
+  width: auto;
+  padding: 60px 20px 20px 20px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical .GP_inside {
+  position: relative
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical.GP_right-top .GP_your-free-book {
+  position: absolute;
+  width: 37px;
+  height: 170px;
+  padding: 20px 0 0 0;
+  border: 5px solid #252525;
+  border-right: 0;
+  bottom: auto;
+  left: -38px;
+  right: auto;
+  margin: -170px 0 0 0;
+  top: 50%;
+  -webkit-border-top-left-radius: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  -moz-border-radius-topleft: 9px;
+  -moz-border-radius-bottomleft: 9px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical.GP_right-top .GP_your-free-book span {
+  background: url("http://generationplugin.com/online/images/boxes/icon-slider.png") no-repeat top left;
+  padding: 3px 0 0 30px;
+  width: 29px;
+  height: 29px;
+  margin: 0px 0 0 -16px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical.GP_left-top .GP_your-free-book {
+  position: absolute;
+  width: 17px;
+  height: 180px;
+  border: 5px solid #252525;
+  border-left: 0;
+  bottom: auto;
+  right: -38px;
+  left: auto;
+  margin: -180px 0 0 0;
+  top: 50%;
+  -webkit-border-top-right-radius: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  -moz-border-radius-topright: 9px;
+  -moz-border-radius-bottomright: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical.GP_left-top .GP_your-free-book span {
+  background: url("http://generationplugin.com/online/images/boxes/icon-slider-2.png") no-repeat top left;
+  padding: 3px 0 0 30px;
+  width: 29px;
+  height: 29px;
+  margin: 16px 0 0 -24px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_vertical .GP_your-free-book span {
+  writing-mode: lr-tb;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  white-space: nowrap;
+}
+.Generation_plug.GP_slidebox .GP_your-free-book {
+  text-decoration: none!important;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -95px;
+  padding: 5px 10px;
+  color: #fff;
+  width: 180px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 199970;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_top .GP_your-free-book {
+  bottom: -47px;
+}
+.Generation_plug .GP_your-free-book span {
+  display: block;
+  background: url("http://generationplugin.com/online/images/boxes/icon-slider.png") no-repeat 0 50%;
+  padding: 5px 0 4px 35px;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_top .GP_content {
+  border-top:0!important;
+  border-left:0!important;
+  border-right:0!important;
+  padding-top:30px!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_bottom .GP_content {
+  border-bottom:0!important;
+  border-left:0!important;
+  border-right:0!important;
+  padding-bottom:30px!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_left-top .GP_content {
+  border-top:0!important;
+  border-left:0!important;
+  border-bottom:0!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_right-top .GP_content {
+  border-top:0!important;
+  border-right:0!important;
+  border-bottom:0!important;
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_left-top .GP_content .GP_inside {
+  right:-10px!important
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_right-top .GP_content .GP_inside {
+  left:-10px!important
+}
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_left-top,
+.Generation_plug .GP_box.GP_slide_box.GP_fixed.GP_right-top {
+  width: 748px!important;
+}
+
+
+/* header */
+
+.Generation_plug #GP_header-container {
+  margin: 0;
+  padding: 0;
+  height: 121px;
+  position: fixed;
+  z-index: 19980!important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 4px solid #222;
+}
+.Generation_plug #GP_header-container .GP_linkv { 
+  float:left;
+}
+.Generation_plug #GP_header-container .GP_linkv,
+.Generation_plug #GP_header-container .GP_linkv a,
+.Generation_plug #GP_header-container .GP_linkv li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none!important;
+}
+.Generation_plug #GP_header-container .GP_linkv img,
+.Generation_plug #GP_header-container .GP_f-left-fb img {
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+.Generation_plug #GP_header-container .GP_linkv input {
+  position: absolute;
+  margin: 0 0 0 152px;
+  padding: 0;
+}
+.Generation_plug #GP_header {
+  width: 1052px;
+  height: 121px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  z-index: 19980!important;
+  background:transparent;
+}
+.Generation_plug #GP_header .GP_book {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 170px;
+  height: 100px;
+  min-width: 170px;
+  min-height: 100px;
+  max-width: 170px;
+  max-height: 100px;
+  display: block;
+}
+.Generation_plug #GP_header .GP_col-left {
+  padding: 10px 0 0 0;
+  margin: 0 0 0 197px;
+  line-height: 10px;
+}
+.Generation_plug #GP_header h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0;
+  line-height: 18px;
+}
+.Generation_plug #GP_header p {
+  margin: 0;
+  padding: 0;
+}
+.Generation_plug #GP_header .GP_desc {
+  font-size: 12px;
+  float: left;
+  color: #fff;
+  margin: 14px 0 4px 0;
+  padding: 0;
+}
+.Generation_plug #GP_header .GP_f-left-fb {
+  margin: 0 20px 0 0px;
+  padding: 0;
+  float: left;
+} 
+.Generation_plug #GP_header .GP_icon.GP_padlock {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.Generation_plug .GP_header-mini {
+  height: 91px!important;
+}
+.Generation_plug .GP_header-mini #GP_header {
+  height: 91px!important;
+}
+.Generation_plug .GP_header-mini h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  float: none!important;
+  margin: 14px 0 6px 0!important;
+  text-align: right!important;
+}
+.Generation_plug .GP_header-mini .GP_desc {
+  font-size: 12px;
+  float: none!important;
+  margin-top: 2px!important;
+}
+.Generation_plug .GP_header-mini .GP_col-left {
+  margin: 3px 0 0 0!important;
+}
+.Generation_plug .GP_header-mini .GP_col-left .GP_form-login-inline {
+  float: left!important;
+  margin-left: 20px;
+}
+
+
+/* footer */
+
+.Generation_plug #GP_footer-container {
+  margin: 0;
+  padding: 0;
+  height: 121px;
+  position: fixed;
+  z-index: 19980!important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 4px solid #222;
+}
+.Generation_plug #GP_footer-container .GP_linkv { 
+  float:left;
+}
+.Generation_plug #GP_footer-container .GP_linkv,
+.Generation_plug #GP_footer-container .GP_linkv a,
+.Generation_plug #GP_footer-container .GP_linkv li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none!important;
+}
+.Generation_plug #GP_footer-container .GP_linkv img,
+.Generation_plug #GP_footer-container .GP_f-left-fb img {
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+.Generation_plug #GP_footer-container .GP_linkv input {
+  position: absolute;
+  margin: 0 0 0 152px;
+  padding: 0;
+}
+.Generation_plug #GP_footer {
+  width: 1052px;
+  height: 121px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  z-index: 19980!important;
+  background:transparent;
+}
+.Generation_plug #GP_footer .GP_book {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -118px;
+  left: 0;
+  width: 200px;
+  height: 220px;
+  min-width: 200px;
+  min-height: 220px;
+  max-width: 200px;
+  max-height: 220px;
+  display: block;
+}
+.Generation_plug #GP_footer .GP_col-left {
+  padding: 10px 0 0 0;
+  margin: 0 0 0 220px;
+  line-height: 10px;
+}
+.Generation_plug #GP_footer h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0;
+  line-height: 18px;
+}
+.Generation_plug #GP_footer p {
+  margin: 0;
+  padding: 0;
+}
+.Generation_plug #GP_footer .GP_desc {
+  font-size: 12px;
+  float: left;
+  color: #fff;
+  margin: 14px 0 4px 0;
+  padding: 0;
+}
+.Generation_plug #GP_footer .GP_f-left-fb {
+  margin: 0 20px 0 0px;
+  padding: 0;
+  float: left;
+}
+.Generation_plug #GP_footer .GP_icon.GP_padlock {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.Generation_plug input[type='button'],
+.Generation_plug input[type='submit'],
+.Generation_plug input[type='button']:hover,
+.Generation_plug input[type='submit']:hover {
+  color: #FFF!important;
+  outline: none!important;
+  outline-width: 0!important;
+  border: none!important;
+  line-height: 100%!important;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.Generation_plug .GP_footer-mini {
+  height: 80px!important
+}
+
+.Generation_plug .GP_footer-mini #GP_footer {
+  height: 80px!important
+  /* width: 1125px; >>on if '.f-left-fb' is activated */
+}
+.Generation_plug .GP_footer-mini h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  float: none!important;
+  margin: 14px 0 6px 0!important;
+  text-align: right!important;
+}
+.Generation_plug .GP_footer-mini .GP_desc {
+  font-size: 12px;
+  float: none!important;
+  line-height: 2px;
+}
+.Generation_plug .GP_footer-mini .GP_col-left {
+  margin: 3px 0 0 0!important;
+}
+.Generation_plug .GP_footer-mini .GP_col-left .GP_form-login-inline {
+  float: left!important;
+  margin-left: 20px;
+}
+
+
+/* inside */
+
+.Generation_plug .GP_insider {
+  margin: 0!important;
+  height: auto!important;
+  padding: 0!important;
+  padding-bottom: 17px!important;
+  width:auto;
+}
+.Generation_plug .GP_width700 * {
+  border: 0!important;
+}
+.Generation_plug .GP_width700,
+.Generation_plug .GP_insider {
+  margin: 0 auto!important;
+  margin-top: 10px!important;
+  margin-bottom: 32px!important;
+}
+.Generation_plug .GP_width700 .GP_form-login-inline {
+  margin-left: 0px!important;
+  padding: 0!important;
+}
+.Generation_plug .GP_insider .GP_input-user,
+.Generation_plug .GP_insider .GP_input-email,
+.Generation_plug .GP_width700 .GP_input-user,
+.Generation_plug .GP_width700 .GP_input-email {
+  width: 160px!important;
+  max-width: 160px!important;
+  min-width: 160px!important;
+  height: 17px!important;
+  -webkit-box-sizing: border-box!important; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box!important;    /* Firefox, other Gecko */
+  box-sizing: border-box!important;         /* Opera/IE 8+ */
+}
+.Generation_plug .GP_insider .GP_button,
+.Generation_plug .GP_width700 .GP_button {
+  width: 175px!important;
+}
+.Generation_plug .GP_width700 h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  line-height: 10%!important;
+  margin-bottom: 20px!important;
+}
+.Generation_plug .GP_width700 .GP_f-left-fb {
+  margin: 0 auto!important;
+  margin-left: -2px!important;
+}
+.Generation_plug .GP_width700 .GP_linkv {
+  margin: 0 auto!important;
+  margin-left: -55px!important;
+}
+.Generation_plug .GP_width700 .GP_linkv .GP_button {
+  left: -15px!important;
+}
+.Generation_plug .GP_insider .GP_f-left-fb {
+  margin: 0 auto!important;
+  margin-left: -10px!important;
+}
+.Generation_plug .GP_insider .GP_f-left {
+  margin: 0 auto!important;
+  margin-left: 20px!important;
+}
+.Generation_plug .GP_insider .GP_linkv {
+  margin: 0 auto!important;
+  margin-left: -35px!important;
+}
+.Generation_plug .GP_insider .GP_linkv .GP_button {
+  left: -12px!important;
+}
+
+
+/* regular box */
+
+.Generation_plug .GP_box-sign-up * {
+  border: 0;
+}
+.Generation_plug .GP_box-sign-up {
+  padding: 0!important;
+  margin: 0 auto!important;
+  width: 240px!important;
+  height: auto!important;
+  /* position: absolute!important; */
+}
+.Generation_plug .GP_box-sign-up .GP_box-container {
+  padding: 0!important;
+  margin: 0!important;
+  width: 240px!important;
+  height: auto!important;
+  border-radius: 3px!important;
+  position: relative!important;
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_darkred .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-reddark.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_red .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-red.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_magenta .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-magenta.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_violetmagenta .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-violetmagenta.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_violet .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-violet.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_blueviolet .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-blueviolet.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_navyblue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-navyblue.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_darkblue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-darkblue.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_blue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-blue.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_turquoise .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-turquoise.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_greenturqoise .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-greenturqoise.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_darkgreen .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-darkgreen.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_green .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-green.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_lemon .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-lemon.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_yellow .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-yellow.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_stripe_orange .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-orange.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_darkred .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-reddark2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_red .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-red2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_magenta .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-magenta2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_violetmagenta .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-violetmagenta2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_violet .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-violet2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_blueviolet .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-blueviolet2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_navyblue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-navyblue2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_darkblue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-darkblue2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_blue .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-blue2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_turquoise .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-turquoise2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_greenturqoise .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-greenturqoise2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_darkgreen .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-darkgreen2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_green .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-green2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_lemon .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-lemon2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_yellow .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-yellow2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up.GP_simple_orange .GP_content {
+  background: url("http://generationplugin.com/online/images/btn/head-orange2.png") no-repeat
+}
+.Generation_plug .GP_box-sign-up .GP_content {
+  width: 240px;
+  padding: 20px 0px 20px 0;
+  border: 0;
+  border-radius: 0;
+}
+.Generation_plug .GP_box-sign-up p {
+  color: #fff;
+  margin: 10px 0 20px 0;
+  padding: 0 20px;
+}
+.Generation_plug .GP_box-sign-up .GP_bar-2 {
+  margin: 15px auto
+}
+.Generation_plug .GP_box-sign-up h2 {
+  font-family: "Times New Roman", Times, serif!important;
+  font-size: 28px!important;
+  height: 135px;
+  margin: 0!important;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 120%;
+}
+.Generation_plug .GP_box-sign-up h2.GP_w-height {
+  font-family: "Times New Roman", Times, serif!important;
+  margin-bottom: 20px
+}
+.Generation_plug .box-sign-up h2 span {
+  font-family: "Times New Roman", Times, serif!important;
+  padding-top: 20px;
+  display: block;
+}
+.Generation_plug .GP_box-sign-up figure {
+  text-align: center;
+  width: 240px;
+  padding: 5px 0 10px 0;
+}
+.Generation_plug .GP_box-sign-up figure img {
+  width: 200px;
+  height: 220px;
+  min-width: 200px;
+  min-height: 220px;
+  max-width: 200px;
+  max-height: 220px;
+}
+.Generation_plug .GP_box-sign-up .GP_f-left-fb {
+  margin: 0 20px 0 0px!important;
+  padding: 0!important;
+  float: left!important;
+}
+.Generation_plug .GP_box-sign-up .GP_f-left li {
+  margin-left: 0!important;
+  padding-left: 0!important;
+  list-style-type: none!important;
+}
+.Generation_plug .GP_box-sign-up .GP_form-login-block {
+  margin-left: 15px!important;
+}
+.Generation_plug .GP_box-sign-up .GP_form-login-block .GP_icon.GP_padlock {
+  width: 80%;
+  color: #CCC;
+}
+.Generation_plug .GP_box-sign-up .GP_icon.GP_padlock {
+  color: #fff;
+  margin: 0!important;
+  float: left;
+}
+
+
+/* register box */
+
+.Generation_plug a.GP_showregister { 
+  text-decoration: none!important;
+}
+.Generation_plug a.GP_showregister .GP_button { 
+  box-shadow: none!important;
+  margin: 0 auto!important;
+}
+.Generation_plug a.GP_showregister img { 
+  width: 190px!important;
+}
+
+
+/* heybar */
+
+.Generation_plug .GP_heybar_trigger { 
+  display: none;
+  position: fixed; 
+  top: 0; 
+  margin-top: 0;
+  right: 9px; 
+  width: 37px; 
+  height: 33px;
+  border: 3px solid #FFF;
+  border-top: none; 
+  box-shadow: 0 0 5px #666; 
+  text-align: center; 
+  border-bottom-right-radius: 9px; 
+  border-bottom-left-radius: 9px;
+  z-index: 19980!important;
+}
+.Generation_plug .GP_heybar_trigger img { 
+  cursor: pointer; 
+  padding-top: 5px;
+}
+.Generation_plug .GP_skydiv_close {
+  position: absolute;
+  cursor:pointer;
+  margin:5px 0 0 240px;
+}
+.Generation_plug .GP_heybar { 
+  display: none;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 33px; 
+  margin-top: -36px;
+  border-bottom: 3px solid #FFF; 
+  box-shadow: 0 0 5px #666;
+  text-align: center;
+  z-index: 19980!important;
+}
+.Generation_plug .GP_heybar img { 
+  cursor: pointer;
+  float: right; 
+  margin: 5px 20px 0 0;
+}
+.Generation_plug .GP_heybar p { 
+  color: #222; 
+  margin-top: 8px; 
+  font-size: 12px;
+  font-family: Arial; 
+  font-weight: regular;
+  text-align: center;
+}
+.Generation_plug .GP_heybar a { 
+  color: #FFF;
+  background-image: url('http://generationplugin.com/online/images/boxes/heybar_d.png');
+  border: 1px solid #222;
+  text-decoration: none; 
+  font-size: 11px; 
+  font-weight: bold; 
+  margin-left: 10px;
+  height: 20px; 
+  padding: 3px 8px;
+  border-radius: 5px; 
+  text-transform: uppercase;
+}
+
+
+/* skybox */
+
+.Generation_plug .GP_skydiv {
+  background-color: #000; 
+  opacity: 0.85; 
+  width: 252px; 
+  height: 70px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 2px #CCC; 
+  position: fixed; 
+  top: auto; 
+  bottom: 10px; 
+  left: auto; 
+  right: 10px;
+  z-index: 999999999; /* 9x '9' = very top */
+  margin-bottom: -100px;
+}
+.Generation_plug img.GP_skydiv_img {
+  position: fixed; 
+  top: auto; 
+  bottom: 27px; 
+  left: auto; 
+  right: 212px;
+  opacity: 1;
+  z-index: 9999999999; /* 10x '9' = very top */
+  margin-bottom: -100px;
+}
+.Generation_plug .GP_skydiv p {
+  float: left; 
+  margin: 17px 0 0 63px; 
+  line-height: 120%; 
+  font-weight: bold; 
+  font-size: 16px; 
+  font-family: Arial; 
+  color: #FFF;
+}
+.Generation_plug .GP_skydiv p span {
+  font-size: 12px; 
+  font-weight: normal;
+}
+.Generation_plug .GP_skydiv a {
+  text-decoration: none;
+}
+
+
+/* list */
+
+.Generation_plug .GP_list {
+  margin: 10px;
+}
+.Generation_plug .GP_list li {
+  font-family: "Times New Roman", Times, serif!important;
+  background: url("http://generationplugin.com/online/images/boxes/icon-1.png") no-repeat;
+  font-size: 20px;
+  padding: 3px 0 6px 41px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+
+/* login inline */
+
+.Generation_plug .GP_icon.GP_padlock {
+  width: 132px;
+  color: #fff;
+  margin-top: 11px!important;
+}
+.Generation_plug .GP_form-login-inline {
+  overflow: hidden;
+  margin: 11px -8px 0 0;
+}
+.Generation_plug .GP_form-login-inline ul {
+  display: block;
+  overflow: hidden;
+  padding: 0 6px 6px 0;
+  margin: 0 -6px 0 0;
+}
+.Generation_plug .GP_form-login-inline li {
+  margin: 0 8px 0 0;
+  float: left;
+  display: inline;
+  padding: 0;
+  list-style-type: none!important;
+}
+.Generation_plug .GP_form-login-block {
+  margin-top: 11px;
+  overflow: hidden;
+  margin-right: -8px;
+}
+.Generation_plug .GP_form-login-block ul {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  margin-right: -6px;
+  max-width: 212px!important;
+}
+.Generation_plug .GP_form-login-block li {
+  margin-bottom: 8px;
+  display: block;
+  list-style-type: none!important;
+}
+
+
+/* other */
+
+.Generation_plug img.GP_f-right {
+  margin-top: 18px;
+  margin-right: 7px;
+  width: 200px;
+  height: 220px;
+  min-width: 200px;
+  min-height: 220px;
+  max-width: 200px;
+  max-height: 220px;
+}
+.Generation_plug .GP_icon.GP_padlock {
+  background: url("http://generationplugin.com/online/images/boxes/icon-padlock.png") no-repeat 0 2px;
+  padding-left: 25px!important;
+  line-height: 12px;
+  font-size: 9px;
+}
+.Generation_plug .GP_icon.GP_padlock.GP_type-2 {
+  background: url("http://generationplugin.com/online/images/boxes/icon-padlock.png") no-repeat 0 2px;
+  padding: 7px 5px 5px 25px!important;
+  margin: 0 0 0 7px!important;
+}
+.Generation_plug .GP_icon.GP_close {
+  background: url("http://generationplugin.com/online/images/boxes/icon-close.png") no-repeat;
+  width: 29px;
+  height: 29px;
+  display: block;
+  text-indent: -7777em;
+}
+.Generation_plug .GP_icon.GP_close {
+  position: absolute;
+  z-index: 5;
+}
+.Generation_plug .GP_icon.GP_close.GP_right-top {
+  right: 12px;
+  top: -16px;
+}
+.Generation_plug .GP_icon.GP_close.GP_left-top {
+  left: -12px;
+  top: -16px;
+}
+.Generation_plug .GP_icon.GP_close.GP_right-top {
+  right: 12px;
+  top: -16px;
+}
+.Generation_plug .GP_icon.GP_close.GP_right-bottom {
+  right: 12px;
+  bottom: -16px;
+}
+.Generation_plug .GP_bar {
+  width: 353px;
+  height: 18px;
+  background: url("http://generationplugin.com/online/images/boxes/bar-1.png") no-repeat;
+  margin: 5px auto;
+}
+.Generation_plug .GP_bar-2 {
+  width: 243px;
+  height: 16px;
+  background: url("http://generationplugin.com/online/images/boxes/dark-bar-2.png") no-repeat;
+  margin: 5px auto;
+}
+.Generation_plug .GP_bar-3 {
+  width: 483px;
+  height: 19px;
+  background: url("http://generationplugin.com/online/images/boxes/dark-bar-3.png") no-repeat;
+  margin: 5px auto;
+}
+.Generation_plug .GP_bar-4 {
+  width: 17px;
+  height: 289px;
+  background: url("http://generationplugin.com/online/images/boxes/dark-bar-4.png") no-repeat;
+  margin: 5px auto;
+}
+.Generation_plug .GP_bar-5 {
+  width: 19px;
+  height: 207px;
+  background: url("http://generationplugin.com/online/images/boxes/dark-bar-5.png") no-repeat;
+  margin: 5px auto;
+}
+.Generation_plug .GP_bar-6 {
+  width: 31px;
+  height: 172px;
+  background: url("http://generationplugin.com/online/images/boxes/dark-bar-6.png") no-repeat;
+}
+
+
+/* buttons */
+
+.Generation_plug .GP_button,
+.Generation_plug .GP_button:hover {
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 4px RGBA(0,0,0,0.3);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline;
+  text-decoration: none!important;
+  border: 0;
+  width: 212px;
+  height:44px!important;
+  max-height:44px!important;
+  min-height:44px!important;
+  text-align: center;
+  padding: 11px 0 11px 0!important;
+  margin: 0;
+  vertical-align: top;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.Generation_plug a.GP_nodecor {
+  text-decoration: none!important;
+}
+.Generation_plug .GP_button.GP_border {
+  margin: -3px;
+  border-radius: 5px;
+  border: 3px solid #ff6600;
+  box-shadow: none;
+}
+.Generation_plug .GP_button.GP_stripe_darkred {
+  background-image: url('http://generationplugin.com/online/images/btn/reddark.gif')
+}
+.Generation_plug .GP_button.GP_stripe_red {
+  background-image: url('http://generationplugin.com/online/images/btn/red.gif')
+}
+.Generation_plug .GP_button.GP_stripe_magenta {
+  background-image: url('http://generationplugin.com/online/images/btn/magenta.gif')
+}
+.Generation_plug .GP_button.GP_stripe_violetmagenta {
+  background-image: url('http://generationplugin.com/online/images/btn/violetmagenta.gif')
+}
+.Generation_plug .GP_button.GP_stripe_violet {
+  background-image: url('http://generationplugin.com/online/images/btn/violet.gif')
+}
+.Generation_plug .GP_button.GP_stripe_blueviolet {
+  background-image: url('http://generationplugin.com/online/images/btn/blueviolet.gif')
+}
+.Generation_plug .GP_button.GP_stripe_navyblue {
+  background-image: url('http://generationplugin.com/online/images/btn/bluenavy.gif')
+}
+.Generation_plug .GP_button.GP_stripe_darkblue {
+  background-image: url('http://generationplugin.com/online/images/btn/bluedark.gif')
+}
+.Generation_plug .GP_button.GP_stripe_blue {
+  background-image: url('http://generationplugin.com/online/images/btn/blue.gif')
+}
+.Generation_plug .GP_button.GP_stripe_turquoise {
+  background-image: url('http://generationplugin.com/online/images/btn/turquoise.gif')
+}
+.Generation_plug .GP_button.GP_stripe_greenturquoise {
+  background-image: url('http://generationplugin.com/online/images/btn/greenturquoise.gif')
+}
+.Generation_plug .GP_button.GP_stripe_darkgreen {
+  background-image: url('http://generationplugin.com/online/images/btn/greendark.gif')
+}
+.Generation_plug .GP_button.GP_stripe_green {
+  background-image: url('http://generationplugin.com/online/images/btn/green.gif')
+}
+.Generation_plug .GP_button.GP_stripe_lemon {
+  background-image: url('http://generationplugin.com/online/images/btn/lemon.gif')
+}
+.Generation_plug .GP_button.GP_stripe_yellow {
+  background-image: url('http://generationplugin.com/online/images/btn/yellow.gif')
+}
+.Generation_plug .GP_button.GP_stripe_orange {
+  background-image: url('http://generationplugin.com/online/images/btn/orange.gif')
+}
+.Generation_plug .GP_button.GP_simple_darkred {
+  background-image: url('http://generationplugin.com/online/images/btn/reddark2.gif')
+}
+.Generation_plug .GP_button.GP_simple_red {
+  background-image: url('http://generationplugin.com/online/images/btn/red2.gif')
+}
+.Generation_plug .GP_button.GP_simple_magenta {
+  background-image: url('http://generationplugin.com/online/images/btn/magenta2.gif')
+}
+.Generation_plug .GP_button.GP_simple_violetmagenta {
+  background-image: url('http://generationplugin.com/online/images/btn/violetmagenta2.gif')
+}
+.Generation_plug .GP_button.GP_simple_violet {
+  background-image: url('http://generationplugin.com/online/images/btn/violet2.gif')
+}
+.Generation_plug .GP_button.GP_simple_blueviolet {
+  background-image: url('http://generationplugin.com/online/images/btn/blueviolet2.gif')
+}
+.Generation_plug .GP_button.GP_simple_navyblue {
+  background-image: url('http://generationplugin.com/online/images/btn/bluenavy2.gif')
+}
+.Generation_plug .GP_button.GP_simple_darkblue {
+  background-image: url('http://generationplugin.com/online/images/btn/bluedark2.gif')
+}
+.Generation_plug .GP_button.GP_simple_blue {
+  background-image: url('http://generationplugin.com/online/images/btn/blue2.gif')
+}
+.Generation_plug .GP_button.GP_simple_turquoise {
+  background-image: url('http://generationplugin.com/online/images/btn/turquoise2.gif')
+}
+.Generation_plug .GP_button.GP_simple_greenturquoise {
+  background-image: url('http://generationplugin.com/online/images/btn/greenturquoise2.gif')
+}
+.Generation_plug .GP_button.GP_simple_darkgreen {
+  background-image: url('http://generationplugin.com/online/images/btn/greendark2.gif')
+}
+.Generation_plug .GP_button.GP_simple_green {
+  background-image: url('http://generationplugin.com/online/images/btn/green2.gif')
+}
+.Generation_plug .GP_button.GP_simple_lemon {
+  background-image: url('http://generationplugin.com/online/images/btn/lemon2.gif')
+}
+.Generation_plug .GP_button.GP_simple_yellow {
+  background-image: url('http://generationplugin.com/online/images/btn/yellow2.gif')
+}
+.Generation_plug .GP_button.GP_simple_orange {
+  background-image: url('http://generationplugin.com/online/images/btn/orange2.gif')
+}
+
+
+/* forms */
+
+.Generation_plug input,
+.Generation_plug textarea {
+  width: 190px;
+  margin: 0;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 3px 2px;
+  background: #fff;
+  font-size: 14px;
+  color: #9999999;
+}
+.Generation_plug select {
+  border: 1px solid #bababa;
+  padding: 3px 2px;
+  background: #fff;
+  font-size: 11px;
+  font-family: inherit;
+  color: #6d6d6d;
+}
+.Generation_plug .GP_input-user,
+.Generation_plug .GP_input-email {
+  color: #999;
+  width: 210px!important;
+  min-width: 210px!important;
+  max-width: 210px!important;
+  height: 42px!important;
+  min-height: 42px!important;
+  max-height: 42px!important;
+  margin: 0;
+  padding: 0 50px 0 10px!important;
+  padding-top: 0!important;
+  padding-right: 50px!important;
+  padding-bottom: 0!important;
+  padding-left: 10px!important;
+  text-indent: 0!important;
+  display: block!important;
+  -webkit-box-sizing: border-box!important; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box!important;    /* Firefox, other Gecko */
+  box-sizing: border-box!important;         /* Opera/IE 8+ */
+  border-color: transparent!important;
+  box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  background-position: 95% 8px!important;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.Generation_plug .GP_input-email {
+  background-position: 95% 8px!important;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.Generation_plug .GP_f-left-fb {
+  margin: 0 auto!important;
+  text-align: center!important;
+}
+.Generation_plug .GP_f-left-fb img {
+  background: transparent;
+}
+
+
+/* form switch */
+
+label[class^=GP_s_en_] span, 
+label[class^=GP_s_di_] span { 
+  line-height: 30px; 
+  display: block; 
+  background-repeat: no-repeat; 
+  font-weight: bold; 
+}
+label[class^=GP_s_di_] span { 
+  background-position: right 0px; 
+  padding: 0 10px; 
+}
+label[class^=GP_s_di_].selected { 
+  background-position: 0 -30px; 
+  border-top-left-radius: 0!important; 
+  border-bottom-left-radius: 0!important; 
+}
+label[class^=GP_s_di_].selected span { 
+  background-position: right -30px; 
+  color: #fff; 
+}
+label[class^=GP_s_en_] span { 
+  background-position: left 0px; 
+  padding: 0 10px; 
+}
+label[class^=GP_s_en_].selected { 
+  background-position: 0 -60px; 
+  border-top-right-radius: 0!important; 
+  border-bottom-right-radius: 0!important; 
+}
+label[class^=GP_s_en_].selected span { 
+  background-position: left -60px; 
+  color: #fff; 
+}
+div[id^=GP_s_] label { 
+  cursor: pointer; 
+}
+div[id^=GP_s_] { 
+  margin: 0 auto; 
+  margin-top: -17px; 
+  margin-bottom: 40px;
+}
+label[class^=GP_s_en_] { 
+  border-top-right-radius: 0!important; 
+  border-bottom-right-radius: 0!important; 
+}
+label[class^=GP_s_di_] { 
+  border-top-left-radius: 0!important; 
+  border-bottom-left-radius: 0!important; 
+}
+
+
+/* other */
+
+#GP_poweredbyshow {
+  font-family: Arial,Helvetica,sans-serif;
+  position: fixed;
+  bottom: 50px; 
+  left: auto; 
+  right: 25px;
+  width: 90px;
+  line-height: 135%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 9px!important;
+  text-shadow: none!important;
+  background-color:transparent;
+  zoom: 1;
+  z-index: 999998;
+}
+#GP_poweredbyhover {
+  position: fixed;
+  bottom: -35px; 
+  left: auto; 
+  right: 15px;
+  z-index: 999999;
+}
+span[id^=GP_countdown_] span { 
+  font-size:26px!important;
+  font-family:Arial,Helvetica,sans-serif;
+}

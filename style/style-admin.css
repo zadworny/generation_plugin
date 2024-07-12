@@ -1,0 +1,440 @@
+/* FORMS SETTINGS PAGE */
+
+.Generation_plugin * {
+  font-family: Arial;
+}
+#Generation_plugin_load {
+  min-width: 1090px;
+  max-width: 1090px;
+}
+.Generation_plugin select,
+.Generation_plugin input,
+.Generation_plugin textarea {
+  font-size: 95%;
+  width: 230px;
+  margin-bottom: 3px;
+}
+.Generation_plugin input[type=file] {
+  border: 1px solid #CCC;
+  background-image: none;
+}
+.Generation_plugin input[type=checkbox] {
+  width: 13px
+}
+.Generation_plugin .left_section {
+  float: left;
+  width: 450px;
+  margin-top: 25px;
+  margin-right: -20px;
+}
+.Generation_plugin .right_section {
+  float: left;
+  width: 640px;
+  margin-top: 25px;
+}
+.Generation_plugin .preview1,
+.Generation_plugin .preview2,
+.Generation_plugin .preview3,
+.Generation_plugin .preview4,
+.Generation_plugin .preview5,
+.Generation_plugin .preview6,
+.Generation_plugin .preview7,
+.Generation_plugin .preview8 {
+  float: left;
+  width: 640px;
+  height: 480px;
+  border: 1px dashed #CCC;
+  background-color: #F9F9F9;
+}
+.Generation_plugin .preview_link {
+  text-transform: none;
+  margin-left: 100px;
+}
+.Generation_plugin #selectButtons option,
+.Generation_plugin #Popup_selectBgs1 option,
+.Generation_plugin #Popup_selectBgs2 option,
+.Generation_plugin #Slider_selectBgs1 option,
+.Generation_plugin #Slider_selectBgs2 option,
+.Generation_plugin #Header_selectBgs1 option,
+.Generation_plugin #Header_selectBgs2 option,
+.Generation_plugin #Footer_selectBgs1 option,
+.Generation_plugin #Footer_selectBgs2 option,
+.Generation_plugin #Regular_selectBgs1 option,
+.Generation_plugin #Regular_selectBgs2 option,
+.Generation_plugin #Inside_selectBgs1 option,
+.Generation_plugin #Inside_selectBgs2 option,
+.Generation_plugin #Reg_selectBgs1 option,
+.Generation_plugin #Reg_selectBgs2 option {
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 25px;
+  padding-left: 140px;
+  padding-right: 10px;
+  margin: 1px 1px 0 1px;
+}
+.Generation_plugin #Popup_selectBgs1,
+.Generation_plugin #Popup_selectBgs2,
+.Generation_plugin #Slider_selectBgs1,
+.Generation_plugin #Slider_selectBgs2,
+.Generation_plugin #Header_selectBgs1,
+.Generation_plugin #Header_selectBgs2,
+.Generation_plugin #Footer_selectBgs1,
+.Generation_plugin #Footer_selectBgs2,
+.Generation_plugin #Regular_selectBgs1,
+.Generation_plugin #Regular_selectBgs2,
+.Generation_plugin #Inside_selectBgs1,
+.Generation_plugin #Inside_selectBgs2,
+.Generation_plugin #Reg_selectBgs1,
+.Generation_plugin #Reg_selectBgs2 {
+  margin-top: 8px
+}
+.Generation_plugin div[id^=choice] {
+  padding: 5px;
+  margin: 10px 50px 10px 0px;
+  border: 1px dashed #BBB;
+  /*background-color: #EEE;*/
+}
+.Generation_plugin div[id^=choice] input,
+.Generation_plugin div[id^=choice] select {
+  width: 220px
+}
+.Generation_plugin div[id^=choice] input[type=checkbox] {
+  width: 15px
+}
+.Generation_plugin .hiddens {
+  cursor: pointer
+}
+.Generation_plugin textarea {
+  resize: vertical;
+  margin: 8px 0 -5px 1px;
+  height: 24px;
+  min-height: 24px;
+}
+.Generation_plugin h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  height: 12px;
+  vertical-align: top;
+}
+.Generation_plugin h4 span,
+.Generation_plugin span.gendesc {
+  text-transform: none;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+  color: #BBB;
+}
+.Generation_plugin .m1px {
+  margin-top: 1px
+}
+.Generation_plugin .m8px {
+  margin-top: 8px
+}
+.Generation_plugin span[id^=helptip_] {
+  font-size: 11px;
+  color: #FFF;
+  border: 1px solid #2890cc;
+  background-color: #50bfef;
+  padding: 0 4px 0 4px;
+}
+.Generation_plugin img[id^=helpbtn_] {
+  margin-bottom: -3px;
+  cursor: pointer;
+}
+.Generation_plugin .maxfilewarning {
+  background-color: #f3ba03 !important;
+  color: #FFF !important;
+  border: 1px solid #C90 !important;
+  position: absolute;
+  margin-left: 254px;
+  margin-top: -21px;
+}
+.Generation_plugin .maxfile {
+  position: absolute;
+  margin-left: 254px;
+  margin-top: -21px;
+}
+.Generation_plugin .headclrhelp {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -16px;
+}
+.Generation_plugin .contacthelp {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -22px;
+}
+.Generation_plugin .exitchhelp {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: -17px;
+  line-height: 130%;
+}
+.Generation_plugin .countdownhelp {
+  position: absolute;
+  margin-left: 286px;
+  margin-top: -16px;
+}
+.Generation_plugin select.GP_screenselect {
+  width: 93px;
+  display: inline;
+  margin: 8px 0 -3px 1px;
+}
+.Generation_plugin select.GP_screenselect option {
+  height: 15px;
+  padding-left: 4px;
+  margin: 1px 1px 0 1px;
+}
+.Generation_plugin #Popup_optin textarea,
+.Generation_plugin #Popup_optin select,
+.Generation_plugin #Popup_optin input[type='text'],
+.Generation_plugin #Slider_optin textarea,
+.Generation_plugin #Slider_optin select,
+.Generation_plugin #Slider_optin input[type='text'],
+.Generation_plugin #Header_optin textarea,
+.Generation_plugin #Header_optin select,
+.Generation_plugin #Header_optin input[type='text'],
+.Generation_plugin #Footer_optin textarea,
+.Generation_plugin #Footer_optin select,
+.Generation_plugin #Footer_optin input[type='text'],
+.Generation_plugin #Regular_optin textarea,
+.Generation_plugin #Regular_optin select,
+.Generation_plugin #Regular_optin input[type='text'],
+.Generation_plugin #Inside_optin textarea,
+.Generation_plugin #Inside_optin select,
+.Generation_plugin #Inside_optin input[type='text'],
+.Generation_plugin #Reg_optin textarea,
+.Generation_plugin #Reg_optin select,
+.Generation_plugin #Reg_optin input[type='text'] { 
+  width: 550px!important;
+}
+.Generation_plugin #Popup_optin input[type="button"],
+.Generation_plugin #Slider_optin input[type="button"],
+.Generation_plugin #Header_optin input[type="button"],
+.Generation_plugin #Footer_optin input[type="button"],
+.Generation_plugin #Regular_optin input[type="button"],
+.Generation_plugin #Inside_optin input[type="button"],
+.Generation_plugin #Reg_optin input[type="button"] { 
+  width: 550px!important;
+  margin-top: 8px!important;
+  cursor: pointer!important;
+}
+.Generation_plugin .gpadminoptional { 
+  font-size:90%!important;
+  width:395px; 
+  border-radius:3px; 
+  border:1px solid #FA0; 
+  color:#FA0; 
+  padding:7px; 
+  margin:0 0 7px 0; 
+  background-color:#FFC;
+}
+
+
+/* GENERAL SETTINGS PAGE */
+
+.Generation_plugin #gpuserinput_test,
+.Generation_plugin #gpemailinput_test {
+  height: 42px!important;
+  width: 190px;
+  padding: 5px 40px 5px 5px;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  border: 1px solid #CCC;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.Generation_plugin #verified_test {
+  height: 49px!important;
+  width: 190px;
+}
+.Generation_plugin .text {
+  font-family: Arial, Tahoma, Helvetica
+}
+.Generation_plugin .activate,
+.Generation_plugin .gactivate {
+  height: 30px;
+  width: 200px;
+  background-color: #CFC;
+  margin-bottom: 10px;
+  padding: 15px 15px 0 15px;
+  moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.Generation_plugin .gactivate {
+  width: 190px !important
+}
+.Generation_plugin .clickbanklink {
+  float: left
+}
+.Generation_plugin .showdelay {
+  width: 32px !important;
+  text-align: center;
+}
+.Generation_plugin .generalbox {
+  float: left;
+  width: 220px;
+  height: auto;
+  min-height: 275px;
+  height: 275px;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  border: 1px dashed #BBB;
+}
+.Generation_plugin .testinput {
+  width: 212px;
+  min-width: 212px;
+  margin-left: 3px;
+  height: 35px;
+  -webkit-box-sizing: border-box!important; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box!important;    /* Firefox, other Gecko */
+  box-sizing: border-box!important;         /* Opera/IE 8+ */
+}
+.Generation_plugin .testbutton {
+  width: 212px;
+  min-width: 212px;
+  box-shadow: 0 2px 4px RGBA(0,0,0,0.3);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline;
+  text-decoration: none!important;
+  border: 0;
+  width: 212px;
+  height: 44px!important;
+  max-height: 44px!important;
+  min-height: 44px!important;
+  text-align: center;
+  padding: 0!important;
+  margin: 0;
+  margin-left: 3px;
+  vertical-align: top;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.Generation_plugin .testbutton:hover {
+  color: #FFF
+}
+
+
+/* CHARACTER COUNTER */
+
+.Generation_plugin form .counter {
+  background-color: #EFE;
+  border: 1px solid #CFC;
+  color: #090;
+  padding: 2px 5px;
+}
+.Generation_plugin form .warning {
+  background-color: #EFE;
+  border: 1px solid #CFC;
+  color: #090;
+  padding: 2px 5px;
+}
+.Generation_plugin form .exceeded {
+  background-color: #FEE;
+  border: 1px solid #FCC;
+  color: #C00;
+  padding: 2px 5px;
+}
+
+
+/* COLOR PICKER */
+
+div.colorPicker-picker {
+  height: 20px;
+  width: 228px;
+  padding: 0;
+  margin: 0 0 0 1px;
+  border: 1px solid #DEDEDE;
+  cursor: pointer;
+  float: left;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+div.colorPicker-palette {
+  width: 324px;
+  position: absolute;
+  border: 1px solid #111;
+  background-color: #444;
+  padding: 2px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+div.colorPicker_hexWrap {
+  float: left
+}
+div.colorPicker_hexWrap input {
+  margin: 5px 2px;
+  border: 1px solid #111;
+  text-transform: uppercase;
+  padding: 3px;
+  width: 320px;
+}
+div.colorPicker-swatch {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #111;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+}
+
+
+/* MAIN MENU */
+
+.Generation_plugin .menu_tabs,
+.Generation_plugin .menu_tabs_active,
+.Generation_plugin .menu_tabs_dark,
+.Generation_plugin .menu_tabs_dark_active {
+  vertical-align: top;
+  width: 90px;
+  line-height: 0.9;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px 0 12px 0;
+  background: url("http://generationplugin.com/online/images/but_check.png") top repeat-x;
+  text-shadow: 0px -1px 0px #c81300;
+  border: 1px solid #92392a;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+}
+.Generation_plugin .menu_tabs_dark {
+  background: #333 url("http://generationplugin.com/online/images/but_check_dark.png") top repeat-x;
+  text-shadow: 0px -1px 0px #333;
+  border: 1px solid #333;
+}
+.Generation_plugin .menu_tabs_active,
+.Generation_plugin .menu_tabs:hover {
+  background: url("http://generationplugin.com/online/images/but_check_hover.png") top repeat-x;
+  text-shadow: 0px -1px 0px #a70700;
+  border: 1px solid #833629;
+}
+.Generation_plugin .menu_tabs_active_dark,
+.Generation_plugin .menu_tabs_dark:hover {
+  background: #222 url("http://generationplugin.com/online/images/but_check_hover_dark.png") top repeat-x;
+  text-shadow: 0px -1px 0px #222;
+  border: 1px solid #222;
+}
+.Generation_plugin .menu_tabs strong,
+.Generation_plugin .menu_tabs_active strong,
+.Generation_plugin .menu_tabs_dark strong,
+.Generation_plugin .menu_tabs_dark_active strong {
+  font-size: 17px
+}
+.Generation_plugin .but-desc {
+  display: inline-block;
+  font-size: 12px;
+  font-family: Arial;
+  color: white;
+}

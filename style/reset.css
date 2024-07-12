@@ -1,0 +1,214 @@
+/* Reset */
+
+body {
+  margin:0;
+  padding:0;
+}
+.Generation_plug * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.Generation_plug a,
+.Generation_plug a:hover {
+  text-decoration: none;
+}
+.Generation_plug strong {
+  font-weight: bold!important
+}
+.Generation_plug form {
+  display: inline
+}
+.Generation_plug,
+.Generation_plug div,
+.Generation_plug p,
+.Generation_plug dt,
+.Generation_plug dd,
+.Generation_plug ul,
+.Generation_plug li,
+.Generation_plug fieldset,
+.Generation_plug td,
+.Generation_plug th,
+.Generation_plug input,
+.Generation_plug textarea {
+  text-align: left;
+  text-shadow: none;
+  border: none;
+}
+.Generation_plug a:hover {
+  opacity:1!important;
+}
+.Generation_plug fieldset,
+.Generation_plug img {
+  border: none;
+}
+.Generation_plug table {
+  border-collapse: collapse;
+}
+.Generation_plug ul,
+.Generation_plug ol {
+  list-style-type: none;
+}
+.Generation_plug h2 {
+  text-transform: none!important;
+}
+.Generation_plug article,
+.Generation_plug aside,
+.Generation_plug footer,
+.Generation_plug header,
+.Generation_plug nav,
+.Generation_plug section,
+.Generation_plug figure {
+  display: block;
+}
+.Generation_plug input[type="checkbox"],
+.Generation_plug input[type="radio"] {
+  width: 20px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+.Generation_plug .GP_f-button {
+  border: 0;
+  padding: 0!important;
+  margin: 0;
+  background: none;
+  width: auto!important;
+  height: auto!important;
+}
+.Generation_plug input[type="submit"],
+.Generation_plug input[type="image"] {
+  cursor: pointer;
+  overflow: visible;
+}
+/* Helpful classes */
+.Generation_plug .GP_f-right {
+  float: right!important
+}
+.Generation_plug .GP_f-left {
+  float: left!important
+}
+.Generation_plug .GP_f-none {
+  float: none!important
+}
+.Generation_plug .GP_nomargin {
+  margin: 0!important
+}
+.Generation_plug .GP_nomarginbottom {
+  margin-bottom: 0!important
+}
+.Generation_plug .GP_nomargintop {
+  margin-top: 0!important
+}
+.Generation_plug .GP_nomarginleft {
+  margin-left: 0!important
+}
+.Generation_plug .GP_nomarginright {
+  margin-right: 0!important
+}
+.Generation_plug .GP_marginauto {
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+.Generation_plug .GP_a-center {
+  text-align: center!important
+}
+.Generation_plug .GP_a-left {
+  text-align: left!important
+}
+.Generation_plug .GP_a-right {
+  text-align: right!important
+}
+.Generation_plug .GP_d-inline {
+  display: inline!important
+}
+.Generation_plug .GP_d-none {
+  display: none!important
+}
+.Generation_plug .GP_d-block {
+  display: block!important
+}
+.Generation_plug .GP_bs-none {
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+}
+.Generation_plug .GP_p-fixed {
+  position: fixed!important
+}
+.Generation_plug .GP_w-auto {
+  width: auto!important
+}
+.Generation_plug .GP_w-height {
+  height: auto!important
+}
+.Generation_plug .GP_o-hidden {
+  overflow: hidden!important
+}
+.Generation_plug .GP_v-hidden {
+  visibility: hidden!important
+}
+.Generation_plug .GP_b-zero {
+  border: 0!important
+}
+.Generation_plug .GP_bg-none {
+  background: none!important
+}
+.Generation_plug .GP_tt-ruppercase {
+  text-transform: uppercase
+}
+.Generation_plug .GP_fw-normal {
+  font-weight: normal!important
+}
+.Generation_plug .GP_td-underline {
+  text-decoration: underline
+}
+.Generation_plug .GP_no-border {
+  border: 0!important
+}
+.Generation_plug .GP_clear {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0!important;
+  padding: 0;
+}
+.Generation_plug .GP_clear {
+  height: 1%;
+  margin-top: 0px;
+}
+.Generation_plug .GP_clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  margin: 0!important;
+}
+.Generation_plug .GP_clearfix:before,
+.Generation_plug .GP_clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.Generation_plug .GP_clearfix:after {
+  clear: both
+}
+.Generation_plug .GP_clearfix {
+  zoom: 1
+}
+.GP_pmzero { 
+  margin:0!important; 
+  margin-top:0!important; 
+  margin-right:0!important; 
+  margin-bottom:0!important; 
+  margin-left:0!important; 
+  padding:0!important; 
+  padding-top:0!important; 
+  padding-right:0!important; 
+  padding-bottom:0!important; 
+  padding-left:0!important;
+}

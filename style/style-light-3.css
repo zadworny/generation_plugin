@@ -1,0 +1,77 @@
+/* layout */
+
+.Generation_plug.GP_header p.GP_desc,
+.Generation_plug.GP_header p.GP_fs12,
+.Generation_plug.GP_header .GP_icon.GP_padlock {
+  color: #666!important;
+}
+.Generation_plug.GP_header h2 {
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.15)!important;
+}
+
+
+/* box */
+
+.Generation_plug.GP_header .GP_box p {
+  color: #666!important;
+}
+.Generation_plug.GP_header .GP_box-sign-up .GP_box-container {
+  border: 1px solid #ccc!important;
+}
+.Generation_plug.GP_header .GP_box.GP_slide_box.GP_auto .GP_content {
+  min-height: 50px!important;
+  border-bottom-width: 5px!important;
+}
+.Generation_plug.GP_header .GP_bar-2 {
+  background: url("http://generationplugin.com/online/images/boxes/light-bar-2.png") no-repeat!important;
+}
+.Generation_plug.GP_header .GP_bar-3 {
+  background: url("http://generationplugin.com/online/images/boxes/light-bar-3.png") no-repeat!important;
+}
+.Generation_plug.GP_header .GP_bar-4 {
+  background: url("http://generationplugin.com/online/images/boxes/light-bar-4.png") no-repeat!important;
+}
+.Generation_plug.GP_header .GP_bar-5 {
+  background: url("http://generationplugin.com/online/images/boxes/light-bar-5.png") no-repeat!important;
+}
+.Generation_plug.GP_header .GP_bar-6 {
+  background: url("http://generationplugin.com/online/images/boxes/light-bar-6.png") no-repeat!important;
+}
+
+
+/* slidebox */
+
+.Generation_plug.GP_header .GP_your-free-book {
+  color: #333!important;
+}
+
+
+/* heybar */
+
+.Generation_plug .GP_heybar a {
+  color: #222;
+  background-image: url('http://generationplugin.com/online/images/boxes/heybar_l.png'); 
+  border: 1px solid #EEE; 
+}
+.Generation_plug .GP_heybar p { 
+  color: #FFF;
+}
+
+
+/* list */
+
+.Generation_plug.GP_header .GP_list li {
+  color: #333333!important;
+}
+
+
+/* forms */
+
+.Generation_plug.GP_header input,
+.Generation_plug.GP_header textarea {
+  border: 1px solid #AAA!important;
+}
+.Generation_plug.GP_header .GP_button {
+  border: none!important;
+  box-shadow: 0 2px 4px RGBA(51,51,51,0.5)!important;
+}
