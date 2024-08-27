@@ -1,6 +1,6 @@
 # Generation Plugin
 
-I sold 1000+ copies and earned $24K in 8 weeks.
+I sold 1000+ copies and earned $24K in 8 weeks.<br>
 The code is now outdated.
 
 Sales video: https://youtu.be/JbXKVfJq134<br>
